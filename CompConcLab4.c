@@ -62,6 +62,6 @@ int main()
     pthread_mutex_destroy(&mutex);  //desalocando variaveis
     pthread_cond_destroy(&cond);
     pthread_exit(NULL);
-
+    return 0;
 
 }
